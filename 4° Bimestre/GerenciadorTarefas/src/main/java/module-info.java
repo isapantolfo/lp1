@@ -7,6 +7,7 @@ module br.fechadinhos.gerenciadortarefas {
 
 
     opens br.fechadinhos.gerenciadortarefas to javafx.fxml;
+    opens br.fechadinhos.gerenciadortarefas.Controller to javafx.fxml;
     opens br.fechadinhos.gerenciadortarefas.model to org.hibernate.orm.core;
     exports br.fechadinhos.gerenciadortarefas;
 }
